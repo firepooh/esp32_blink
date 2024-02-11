@@ -5,7 +5,7 @@ branding:
   icon: wifi
 inputs:
   path:
-    description: "Relative path under $GITHUB_WORKSPACE to place the repository"
+    description: "/esp32_blink"
     default: ""
     required: false
   esp_idf_version:
