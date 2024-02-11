@@ -1,16 +1,18 @@
+name: C/C++ CI
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
 jobs:
   build:
 
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repo
+    - name: Checkout esp32_blink repo
       uses: actions/checkout@v2
-      with:
-        submodules: 'recursive'
     - name: esp-idf build
-      uses: espressif/esp-idf-ci-action@v1
-      with:
-        esp_idf_version: v5.4
-        target: esp32s3
-        path: 'esp32_blink'
+      uses: sebastianPsm/esp-idf-ci-action@1
