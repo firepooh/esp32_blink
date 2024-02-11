@@ -19,3 +19,9 @@ jobs:
       with:
         esp_idf_version: v5.1
         target: esp32s3
+    - name: artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: my-artifact
+        path: 
+          build/bootloader/bootloader.bin
