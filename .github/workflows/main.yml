@@ -24,6 +24,4 @@ jobs:
       with:
         name: my-artifact
         path: 
-          build/bootloader/bootloader.bin
           build/blink.bin
-          build/partition_table/partition-table.bin
