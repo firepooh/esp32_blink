@@ -77,6 +77,7 @@ static void configure_led(void)
 
 void app_main(void)
 {
+    ESP_LOGI(TAG,"This is Branch");
 
     /* Configure the peripheral according to the LED type */
     configure_led();
