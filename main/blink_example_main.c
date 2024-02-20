@@ -80,7 +80,7 @@ void app_main(void)
     ESP_LOGI(TAG,"This is Branch");
     ESP_LOGI(TAG,"REBASE BRANCH MERGE");
     ESP_LOGI(TAG,"This is Branch");
-        
+    ESP_LOGI(TAG,"Branch localbranch");    
     /* Configure the peripheral according to the LED type */
     configure_led();
 
