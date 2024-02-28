@@ -82,6 +82,7 @@ void app_main(void)
     ESP_LOGI(TAG,"This is Branch");
     ESP_LOGI(TAG,"Branch localbranch");    
     ESP_LOGI(TAG,"STEP5 BRANCH");
+    /* test */
     
     /* Configure the peripheral according to the LED type */
     configure_led();
