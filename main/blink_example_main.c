@@ -83,6 +83,8 @@ void app_main(void)
     ESP_LOGI(TAG,"Branch localbranch");    
     ESP_LOGI(TAA,"STEP5 BRANCH");
     /* Configure the peripheral according to the LED type */
+    /* master commit test */
+
     configure_led();
 
     while (1) {
